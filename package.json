@@ -1,0 +1,48 @@
+{
+  "name": "@inpyjamas/roboto",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A robot for doing chores on repos",
+  "author": "Fabian Morón Zirfas <fabianmoronzirfas@protonmail.ch>",
+  "license": "MIT",
+  "repository": "https://github.com/fabianmoronzirfas/roboto.git",
+  "homepage": "https://github.com/fabianmoronzirfas/roboto",
+  "bugs": "https://github.com/fabianmoronzirfas/roboto/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "probot run ./lib/index.js",
+    "test": "jest",
+    "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+    "nodemon": "nodemon"
+  },
+  "dependencies": {
+    "octokit-plugin-create-pull-request": "3.9.0",
+    "probot": "10.1.3"
+  },
+  "devDependencies": {
+    "@inpyjamas/scripts": "0.1.7-alpha",
+    "@types/jest": "^26.0.9",
+    "@types/nock": "^11.1.0",
+    "@types/node": "^14.0.27",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "jest": "^26.4.0",
+    "nock": "^13.0.4",
+    "nodemon": "2.0.4",
+    "smee-client": "^1.1.0",
+    "ts-jest": "^26.2.0",
+    "ts-node-dev": "1.0.0-pre.62",
+    "typescript": "4.0.2"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
