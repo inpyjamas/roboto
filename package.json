@@ -21,8 +21,8 @@
     "nodemon": "nodemon"
   },
   "dependencies": {
-    "octokit-plugin-create-pull-request": "3.9.0",
-    "probot": "10.1.3"
+    "octokit-plugin-create-pull-request": "3.13.1",
+    "probot": "10.19.0"
   },
   "devDependencies": {
     "@inpyjamas/scripts": "0.1.7-alpha",
